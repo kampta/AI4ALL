@@ -1,0 +1,5 @@
+Flask==1.1
+requests==2.24
+Pillow==7.1
+torch==1.4
+torchvision=0.5
