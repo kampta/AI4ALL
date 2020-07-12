@@ -13,8 +13,8 @@ app = Flask(__name__)
 
 
 @app.route('/', methods=['GET'])
-def demo_photag():
-    return render_template('photag.html')
+def root():
+    return render_template('index.html')
 
 
 @app.route('/predict', methods=['GET', 'POST'])
