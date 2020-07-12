@@ -1,6 +1,8 @@
 Building a photo tagging app with PyTorch
 =========================================
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kampta/AI4ALL/blob/photag/pytorch_flask_tutorial.ipynb)
+
 A simple flask web app with REST API and a pre-trained PyTorch model
 
 ![pytorch_in_action](imgs/action.png)
