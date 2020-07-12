@@ -31,4 +31,23 @@ Run
 FLASK_APP=app.py flask run
 ```
 
-and open http://localhost:5000/demo in your browser
+and open http://localhost:5000 in your browser
+
+## Testing with `curl`
+
+* `GET`
+```
+curl -X GET -H "Content-Type: application/json" http://localhost:5000/predict?q=https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png
+```
+
+* `POST`
+```
+curl -X POST -H "Content-Type: multipart/form-data" http://localhost:5000/predict -F "file=@dog.jpg"
+```
+
+## Credits
+
+This tutorial heavily borrows from
+
+* https://pytorch.org/tutorials/intermediate/flask_rest_api_tutorial.html
+* https://www.pyimagesearch.com/2014/12/08/adding-web-interface-image-search-engine-flask
