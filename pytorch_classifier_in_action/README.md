@@ -5,7 +5,7 @@ Building a photo tagging app with PyTorch
 
 A simple flask web app with REST API and a pre-trained PyTorch model
 
-![pytorch_in_action](imgs/action.png)
+![pytorch_in_action](imgs/classification.gif)
 
 * [PyTorch](https://pytorch.org/) is a machine learning framework for research and development of ML models.
 * [Flask](http://flask.pocoo.org/) is a micro web framework powered by Python.
