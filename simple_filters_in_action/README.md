@@ -1,11 +1,11 @@
 Building a photo tagging app with PyTorch
 =========================================
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kampta/AI4ALL/blob/master/pytorch_classifier_in_action/pytorch_flask_tutorial.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kampta/AI4ALL/blob/master/simple_filters_in_action/filters_flask_tutorial.ipynb)
 
 A simple flask web app with REST API and some simple PIL filters
 
-![pytorch_in_action](imgs/classification.gif)
+![filters_in_action](imgs/filters.gif)
 
 * [PIL](https://pillow.readthedocs.io/en/stable/) is Python's Imaging Library.
 * [Flask](http://flask.pocoo.org/) is a micro web framework powered by Python.
